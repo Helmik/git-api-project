@@ -1,3 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+<div class="flex-container">
+	<app-top-nav *ngIf="!login"></app-top-nav> 
+	<div class="content">
+		<app-nav class="aside-nav nav-container" *ngIf="!login"></app-nav>
+		<router-outlet></router-outlet>
+	</div>
+</div>

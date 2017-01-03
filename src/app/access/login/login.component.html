@@ -1,0 +1,5 @@
+<form [formGroup]="loginForm" (submit)="doLogin($event)" class="credentials">
+	<label>User:</label><input type="text" name="" formControlName="userName" placeholder="User name">
+	<label>Password:</label><input type="password" name="" formControlName="password" placeholder="Password">
+	<button type="submit">Accept!</button>
+</form>	

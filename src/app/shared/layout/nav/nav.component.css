@@ -1,0 +1,27 @@
+.menu{
+	width: 220px;
+}
+
+.nav>li{
+	/*padding: 5px 5px 10px 5px;*/
+    font-size: 13px;
+    color: #333;
+    transition: all .2s ease-in-out;
+    font-weight: 700;
+}
+
+.nav li:hover{
+	background-color: #cecece;
+}
+
+.nav a{
+	font-size: 13px; 
+    color: #333; 
+    transition: all .2s ease-in-out;
+    padding: 15px;
+}
+
+.nav a:hover{
+    color: #428bca; 
+    background-color: #cecece;
+}
